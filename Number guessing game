@@ -21,5 +21,6 @@ while num <= 50:
     attempts -=1
     if attempts < 1:
         print("You have exhausted all your attempts")
+        print(f"The secret number was {secret_number}")
         break
 print("GAME OVER!!")
